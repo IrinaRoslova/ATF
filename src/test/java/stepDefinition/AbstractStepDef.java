@@ -15,9 +15,9 @@ public class AbstractStepDef {
     protected static String chromeDriver= PropertyLoader.loadProperty("chromeDriver");
     protected static String loginPageUrl= PropertyLoader.loadProperty("loginPageURL");
 //    protected static String loginPageUrl1= PropertyLoader.loadProperty("loginPageURL1");
-    protected static String excelFilePath= PropertyLoader.loadProperty("excelFilePath");
-    protected static String excelSheet= PropertyLoader.loadProperty("excelSheet");
-    protected static String autoItUploadFileSite= PropertyLoader.loadProperty("autoItUploadFileSite");
-    protected static String restAssuredBaseURL= PropertyLoader.loadProperty("restAssuredBaseURL");
+    public static String excelFilePath= PropertyLoader.loadProperty("excelFilePath");
+    public static String excelSheet= PropertyLoader.loadProperty("excelSheet");
+    public static String autoItUploadFileSite= PropertyLoader.loadProperty("autoItUploadFileSite");
+    public static String restAssuredBaseURL= PropertyLoader.loadProperty("restAssuredBaseURL");
 //  public Logger log=LogManager.getLogger();
 }
